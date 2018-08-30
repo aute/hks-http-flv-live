@@ -1,5 +1,5 @@
 # hks-http-flv-live
-
+# 2018/08/30 HKS 的 RTMP 流似乎挂掉了 😢，恢复时间未知
 基于 [ffmpeg](https://github.com/FFmpeg/FFmpeg) 与 [Livego](https://github.com/gwuhaolin/livego) ，将香港卫视 RTMP 直播流转为 HTTP-FLV 直播流的 Docker 镜像。[Docker hub](https://hub.docker.com/r/aute/hks-http-flv-live/)
 
 ## Why ?
