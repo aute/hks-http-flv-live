@@ -1,5 +1,7 @@
 # hks-http-flv-live
 
+香港卫视的实时流不怎么稳定，可以使用这个基于本地文件推流的 demo [http-flv-streaming-demo](https://github.com/aute/http-flv-streaming-demo) 
+
 基于 [ffmpeg](https://github.com/FFmpeg/FFmpeg) 与 [Livego](https://github.com/gwuhaolin/livego) ，将香港卫视 RTMP 直播流转为 HTTP-FLV 直播流的 Docker 镜像。[Docker hub](https://hub.docker.com/r/aute/hks-http-flv-live/)
 
 ## Why ?
