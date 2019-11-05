@@ -12,4 +12,6 @@ RUN apt-get update && apt-get install curl -y\
 
 COPY flvStart.sh /flvStart.sh
 
-ENTRYPOINT ["/flvStart.sh"] 
+ENV url=rtmp://202.69.69.180:443/webcast/bshdlive-pc
+
+ENTRYPOINT sh /flvStart.sh
