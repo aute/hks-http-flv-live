@@ -27,7 +27,7 @@
 
 `docker pull aute/hks-http-flv-live`
 
-`docker run --rm -p 7001:7001 docker.io/aute/hks-http-flv-live --env url=yourStream `
+`docker run --rm -p 7001:7001 --env url=yourStream docker.io/aute/hks-http-flv-live`
 
 启动后 http-flv 直播地址为：`http://localhost:7001/http/flv.flv`
 
